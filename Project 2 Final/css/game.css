@@ -1,0 +1,28 @@
+.background    { background: rgb(83, 72, 89);
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+.background td { padding: 0;          }
+.lava          { background-image: url("../Sprite Images/WaveAnimation.gif") ;    }
+.wall          { background-image: url("../Sprite Images/StoneSprite.jpg");   }
+.floater       { background: blue;   }
+.coin		   { background-image: url("../Sprite Images/Flame Sprite.png"); }
+.spike        { background-image: url("../Sprite Images/Spikes_Sprite.png") ; }
+.power		  { background-image: url("../Sprite Images/UpSprite.png") ; }
+
+.actor  { position: absolute;  }
+.player { background-image: url("../Sprite Images/Firesprite-right.png"); }
+.player2 { background-image: url("../Sprite Images/Firesprite-Left.png");}
+
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
+
+.lost .player {
+  background-image: url("../Sprite Images/Skullsprite.png") ;
+}
+.won .player {
+  box-shadow: -4px -7px 8px orange, 4px -7px 8px orange;
+}
